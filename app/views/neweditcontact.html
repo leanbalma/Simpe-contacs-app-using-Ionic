@@ -1,0 +1,32 @@
+<ion-view>
+<ion-content>
+
+<div class="list list-inset">
+
+  <label class="item item-icon-left">
+    <i class="icon ion-android-contact"></i>
+    <input type="text" placeholder="Contact Name" ng-model="contact.name">
+  </label>
+
+  <label class="item item-icon-left">
+    <i class="icon ion-android-call"></i>
+    <input type="number" placeholder="Contact Phone" ng-model="contact.phone">
+  </label>
+
+  <label class="item item-icon-left">
+    <i class="icon ion-android-home"></i>
+    <input type="text" placeholder="Contact Address" ng-model="contact.address">
+  </label>
+
+  <label class="item item-icon-left">
+    <i class="icon ion-android-mail"></i>
+    <input type="email" placeholder="Contact Email" ng-model="contact.email">
+  </label>
+
+  <button class="button button-block button-positive" ng-click="submit()">
+    Confirm
+  </button>
+</div>
+
+</ion-content>
+</ion-view>

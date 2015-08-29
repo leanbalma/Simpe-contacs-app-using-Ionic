@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.unixono.leaflet"
+	version 	= "1.0.0">
+
+	<name>Simple Contacts</name>
+
+	<description>
+		Simple contacts app using Ionic 1.0
+	</description>
+
+	<author email="balmacedalm@gmail.com">
+		Leandro Balmaceda
+	</author>
+
+</widget> 

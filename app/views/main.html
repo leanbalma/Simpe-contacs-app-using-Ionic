@@ -1,0 +1,30 @@
+<ion-view>
+  <ion-content>
+
+    <ion-list>
+      <ion-item ng-repeat="contact in contacts" class="item item-avatar">
+        <!-- <a class="item item&#45;avatar" href="#"> -->
+          <img ng-src="{{ contact.avatar }}">
+          <h2>{{ contact.name }}</h2>
+          <p>{{ contact.phone }}</p>
+        <!-- </a> -->
+
+        <ion-option-button class="button-assertive" ng-click="deleteContact(contact)">
+        Delete
+        </ion-option-button>
+
+        <!-- <ion&#45;option&#45;button class="button&#45;info" ng&#45;click="editContact()"> -->
+        <!-- Edit -->
+        <!-- </ion&#45;option&#45;button> -->
+
+        <ion-delete-button class="ion-minus-circled">
+        </ion-delete-button>
+
+        <ion-reorder-button class="ion-navicon">
+        </ion-reorder-button>
+
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>
